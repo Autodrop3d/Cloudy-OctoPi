@@ -10,3 +10,7 @@ echo_green "Installing system dependencies..."
 apt install --yes  libatlas-base-dev libgeos-dev
 
 cd /home/pi
+
+wget https://github.com/Autodrop3d/autodrop3dClient/raw/master/CuraEngine
+chmod 777 CuraEngine
+mv CuraEngine /usr/local/bin/cura_engine
