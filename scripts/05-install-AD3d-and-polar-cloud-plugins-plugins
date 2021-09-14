@@ -10,6 +10,7 @@ plugins=(
     # add quoted URLs for install archives, separated by newlines, e.g.:
     "https://github.com/Autodrop3d/AD3d-octoprint-connect/archive/refs/heads/master.zip"
     "https://github.com/markwal/OctoPrint-PolarCloud/archive/refs/heads/master.zip"
+    "hhttps://github.com/OctoPrint/OctoPrint-CuraLegacy/archive/master.zip"
 )
 
 for plugin in ${plugins[@]}; do
