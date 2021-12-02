@@ -10,7 +10,5 @@ echo_green "Installing system dependencies..."
 apt install --yes  python3-pip
 
 cd /home/pi
-wget https://github.com/Autodrop3d/autodrop3dClient/raw/master/belt-engine.part
-mv belt-engine.part belt-engine.tar.gz
-pip3 install ./belt-engine.tar.gz
-
+wget https://github.com/Autodrop3d/BeltEngine/raw/main/dist/belt-engine-0.1.3.tar.gz
+pip3 install ./belt-engine-0.1.3.tar.gz
